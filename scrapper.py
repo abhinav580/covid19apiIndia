@@ -45,8 +45,9 @@ def getData():
         state_json["total_discharged"]=state_information_list[4].text
         state_json["total_death"]=state_information_list[5].text
         state_json_processed=json.dumps(state_json)
+        state_json_decoded=json.loads(state_json_processed)
         #print(state_json_processed)
-        state_dat.append(state_json_processed)
+        state_dat.append(state_json_decoded)
 
     response_json["state_information"]=state_dat
     return response_json
