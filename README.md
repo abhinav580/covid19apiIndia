@@ -31,5 +31,5 @@ State information contains a list of all the state level cases. Following are th
 ## Data sources
 
 * [MOHFW](https://www.mohfw.gov.in/)
-* [Woldometer](https://www.worldometers.info/)
+* [Worldometer](https://www.worldometers.info/)
 
