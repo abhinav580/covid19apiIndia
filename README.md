@@ -1,17 +1,17 @@
 # COVID 19 India API
 
-##Brief
+## Brief
 
 This was developed using webscraping to obtain COVID-19 cases data specifically in India. The code is open to all as well as I have hosted it in a VM for you all to access.
 
 If you are interested in developing a visualisation tool or contribute to the API, please contact me [Avirup Basu](mailto:avirup.basu@live.com?subject=[COVID-19%20API%20GITHUB]) or simply create a pull request in dev branch.
 
-##How to use
+## How to use
 
 * **Endpoint**:  52.171.216.227:5001/api/v1.0/covid19
 * **Request Type**: GET
 
-##Response pattern
+## Response pattern
 
 It contains a json with the following fields
 
@@ -28,7 +28,7 @@ State information contains a list of all the state level cases. Following are th
 * total_discharged
 * total_case_foreign
 
-##Data sources
+## Data sources
 
 * [MOHFW](https://www.mohfw.gov.in/)
 * [Woldometer](https://www.worldometers.info/)
