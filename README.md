@@ -8,7 +8,7 @@ If you are interested in developing a visualisation tool or contribute to the AP
 
 ## How to use
 
-* **Endpoint**:  52.171.216.227:5001/api/v1.0/covid19
+* **Endpoint**:  http://52.171.216.227:5001/api/v1.0/covid19
 * **Request Type**: GET
 
 ## Response pattern
